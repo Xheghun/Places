@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace 'com.example.android.cars.data'
+    namespace 'com.xheghun.android.cars.data'
     compileSdk 33
 
     defaultConfig {

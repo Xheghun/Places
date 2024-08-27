@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.android.cars.places'
+    namespace 'com.xheghun.android.cars.places'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.android.cars.places"
+        applicationId "com.xheghun.android.cars.places"
         minSdk 23
         targetSdk 33
         versionCode 1
