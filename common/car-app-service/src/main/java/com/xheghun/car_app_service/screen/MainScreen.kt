@@ -39,13 +39,18 @@ class MainScreen(carContext: CarContext) : Screen(carContext) {
                                 ), 0, 1, Spannable.SPAN_INCLUSIVE_INCLUSIVE
                             )
                         })
-                        .setOnClickListener {  }
+                        .setOnClickListener {
+                            screenManager.push(DetailsScreen(carContext, it.id))
+                        }
                         .setMetadata(
-                            Metadata.Builder(  )
-                                .setPlace(Place.Builder(
-                                    CarLocation.create(it.latitude, it.longitude))
-                                    .setMarker(PlaceMarker.Builder().build())
-                                    .build())
+                            Metadata.Builder()
+                                .setPlace(
+                                    Place.Builder(
+                                        CarLocation.create(it.latitude, it.longitude)
+                                    )
+                                        .setMarker(PlaceMarker.Builder().build())
+                                        .build()
+                                )
                                 .build()
                         )
                         .build()
