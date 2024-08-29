@@ -19,4 +19,5 @@ An Android Point of Interest app with support for Android Auto and Android Autom
 ## Set up
 
 to get more information about setting up DHU Display or an Automotive Emulator for testing please read these docs.
-[DHU](https://developer.android.com/training/cars/testing/dhu), [Automotive](https://developer.android.com/training/cars/testing/emulator)
+- [DHU](https://developer.android.com/training/cars/testing/dhu)
+- [Automotive](https://developer.android.com/training/cars/testing/emulator)
